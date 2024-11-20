@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.headerWrapper {
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footerWrapper {
+  width: 100%;
+  height: 20px;
+  border-top: 5px solid grey;
+  margin-top: flex;
+  display: flex;
+  justify-content: center;
+}
+.mainWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 32px;
+}
+
+.listWrapper {
+  border: 1px solid grey; /* Adds a 1px solid grey border */
+  display: flex; /* Enables flexbox layout */
+  justify-content: space-between; /* Spaces items evenly with space between them */
+  align-items: center; /* Centers items vertically */
+  width: 80%; /* Sets the width to 80% of the container */
+  padding: 0px 10px; /* Adds padding: 0px top/bottom, 10px left/right */
+  border-radius: 10px; /* Rounds the corners with a 10px radius */
+}
+.doneBtn {
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  padding: 5px;
+  margin: 5px;
+}
+.doneBtn:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.deleteBtn {
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+  padding: 5px;
+  margin: 5px;
+}
+.deleteBtn:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+}
+.select {
+  padding: 3px;
+  border-radius: 5px;
+}
+input {
+  width: 30%;
+  padding: 3px;
+}
+.addBtn {
+  border: 1px solid green;
+  background-color: white;
+  color: green;
+  padding: 5px;
+  margin: 5px;
+}
+.addBtn:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
